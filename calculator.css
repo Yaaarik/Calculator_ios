@@ -1,0 +1,259 @@
+/* ccs fo ios calculator 
+Developer: Yaposlav Kabanov;
+*/
+
+.all_area {
+	width: 402px;
+	height: 700px;
+	/*border: solid; */
+	border-width: 1px;
+}
+
+.answer_area {
+	width: 402px;
+	height: 200px;
+	background-color: black;
+	position: fixed;
+	top:20px;
+	left: 20px;
+	border-width: 1px;
+
+}
+
+.clear {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(191,192,196) ;
+	position: fixed;
+	top:220px;
+	left: 20px;
+	border:solid;
+	border-width: 1px;
+}
+
+.plusminus {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(191,192,196) ;
+	position: fixed;
+	top:220px;
+	left: 120px;
+	border: solid;
+	border-width: 1px;
+}
+
+.percent {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(191,192,196) ;
+	position: fixed;
+	top:220px;
+	left: 220px;
+	border: solid;
+	border-width: 1px;
+}
+.devide {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(255,153,0);
+	position: fixed;
+	top:220px;
+	left: 320px;
+	border: solid;
+	border-width: 1px;
+}
+
+.b7 {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(198,199,201);
+	position: fixed;
+	top:320px;
+	left: 20px;
+	border:solid;
+	border-width: 1px;
+}
+
+.b8 {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(198,199,201) ;
+	position: fixed;
+	top:320px;
+	left: 120px;
+	border: solid;
+	border-width: 1px;
+}
+
+.b9 {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(198,199,201) ;
+	position: fixed;
+	top:320px;
+	left: 220px;
+	border: solid;
+	border-width: 1px;
+}
+.multiply {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(255,153,0);
+	position: fixed;
+	top:321px;
+	left: 320px;
+	border: solid;
+	border-width: 1px;
+}
+
+.b4 {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(198,199,201) ;
+	position: fixed;
+	top:420px;
+	left: 20px;
+	border:solid;
+	border-width: 1px;
+}
+
+.b5 {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(198,199,201) ;
+	position: fixed;
+	top:420px;
+	left: 120px;
+	border: solid;
+	border-width: 1px;
+}
+
+.b6 {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(198,199,201) ;
+	position: fixed;
+	top:420px;
+	left: 220px;
+	border: solid;
+	border-width: 1px;
+}
+.minus {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(255,153,0);
+	position: fixed;
+	top:421px;
+	left: 320px;
+	border: solid;
+	border-width: 1px;
+}
+
+.b1 {
+	width: 99px;
+	height: 100px;
+	background-color: rgb(198,199,201) ;
+	position: fixed;
+	top:520px;
+	left: 20px;
+	border:solid;
+	border-width: 1px;
+}
+
+.b2 {
+	width: 99px;
+	height: 100px;
+	background-color: rgb(198,199,201) ;
+	position: fixed;
+	top:520px;
+	left: 120px;
+	border: solid;
+	border-width: 1px;
+}
+
+.b3 {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(198,199,201) ;
+	position: fixed;
+	top:520px;
+	left: 220px;
+	border: solid;
+	border-width: 1px;
+}
+.plus {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(255,153,0);
+	position: fixed;
+	top:521px;
+	left: 320px;
+	border: solid;
+	border-width: 1px;
+}
+.b0 {
+	width: 200px;
+	height: 100px;
+	background-color: rgb(198,199,201) ;
+	position: fixed;
+	top: 620px;
+	left: 20px;
+	border: solid;
+	border-width: 1px;
+}
+.dot {
+	width: 99px;
+	height: 100px;
+	background-color: rgb(198,199,201) ;
+	position: fixed;
+	top: 620px;
+	left: 220px;
+	border: solid;
+	border-width: 1px;
+}
+.get_result {
+	width: 100px;
+	height: 100px;
+	background-color: rgb(255,153,0);
+	position: fixed;
+	top: 620px;
+	left: 320px;
+	border: solid;
+	border-width: 1px;
+}
+
+.numbers {	
+	padding-top: 15px;
+	padding-left: 40px;
+	font-family: Arial;
+	font-weight: lighter;
+}
+
+.numbers_orange {
+	padding-top: 15px;
+	padding-left: 40px;
+	font-family: Arial;
+	font-weight: lighter;
+	color:white;
+}
+
+.number_result {
+	font-family: Arial;
+	font-weight: lighter;
+	color:white;
+	font-size: 100px;
+	text-align: right;
+	padding-right: 25px;
+
+}
+
+/*
+.center {
+	display:block;
+	margin:0 auto;
+}
+*/
+
+
+
+
